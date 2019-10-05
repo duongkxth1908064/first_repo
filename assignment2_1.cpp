@@ -5,9 +5,9 @@ int main(){
 	float a, b, c, max, min;
 	
 	printf("nhap vao 3 so:\n");
-	scanf("%f\n",&a);
-	scanf("%f\n",&b);
-	scanf("%f\n",&c);
+	scanf("%f",&a);
+	scanf("%f",&b);
+	scanf("%f",&c);
 	
 	if (a<b){
 		max = b;
