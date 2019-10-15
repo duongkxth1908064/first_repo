@@ -11,7 +11,7 @@ int main(){
 		printf("nhap c: ");
 		scanf("%d",&c);
 	} while (
-	    !(((a+b)>c ) && ((a+c)>b ) && ((c+b)>a) )
+	    !(a+b>c && a+c>b && c+b>a)
 	);
 	
 	printf("ban da nhap dung 3 canh cua 1 tam giac\n");

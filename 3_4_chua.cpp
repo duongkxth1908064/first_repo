@@ -20,11 +20,11 @@ int main(){
 		if (d<0){
 			printf("\nphuong trinh vo nghiem");
 		} else if (d==0){
-			float x = -b/(2*a);
+			float x = (float)-b/(2*a);
 			printf("\nphuong trinh co nghiem kep x1 = x2 = %f",x);
 		} else{
-			float x1 = (-b+sqrt(d))/(2*a);
-			float x2 = (-b-sqrt(d))/(2*a);
+			float x1 =(float) (-b+sqrt(d))/(2*a);
+			float x2 =(float) (-b-sqrt(d))/(2*a);
 			printf("\nphuong trinh co hai nghiem\nx1 = %f\n",x1);
 			printf("x2 = %f",x2);
 		}
