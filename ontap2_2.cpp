@@ -4,7 +4,7 @@
 
 int main(){
 	
-	int n,s=1;
+    int n,s=1;
 	printf("nhap n: ");
 	scanf("%d",&n);
 	for (int i=1;i<=n;i++){

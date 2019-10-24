@@ -34,11 +34,7 @@ int main(){
 			break;
 		}
 		
-		
-		
-		
-		
-		
+	
 		case 2:{
 			printf("KH vua goi mon an\n");
 			

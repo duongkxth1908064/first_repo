@@ -17,7 +17,7 @@ int main(){
 		} 
 	}
 	
-	printf("%d",s);
+//	printf("%d ",s);
 	
 	if (s==n){
 		printf("la so hoan hao");
